@@ -1,16 +1,3 @@
-GIT
-  remote: git://github.com/reactjs/react-rails.git
-  revision: 56eab4bb6d2765380dec24abda8ecd3e50ad46d7
-  branch: master
-  specs:
-    react-rails (1.10.0)
-      babel-transpiler (>= 0.7.0)
-      coffee-script-source (~> 1.8)
-      connection_pool
-      execjs
-      railties (>= 3.2)
-      tilt
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +143,13 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (12.0.0)
     rdoc (4.3.0)
+    react-rails (1.10.0)
+      babel-transpiler (>= 0.7.0)
+      coffee-script-source (~> 1.8)
+      connection_pool
+      execjs
+      railties (>= 3.2)
+      tilt
     rspec-core (3.5.4)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
@@ -236,7 +230,7 @@ DEPENDENCIES
   minitest
   pry
   rails (= 4.2.4)
-  react-rails!
+  react-rails
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
